@@ -23,7 +23,7 @@ export default function Header() {
             <img 
               src="https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/61208a66775c73bc0685f54b7678d959.png" 
               alt="Company Logo" 
-              className="h-12 w-auto"
+              className="h-10 w-auto"
             />
           </Link>
 

@@ -81,7 +81,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400 mb-4 md:mb-0">
-            © 2024 AC Parts & HVAC Trading Company. All rights reserved.
+            &copy; {new Date().getFullYear()} Al Zahra. All rights reserved.
           </p>
           <Link href="https://papernpencil.com" target="_blank" className="text-sm text-gray-400 hover:text-[#c59241] transition-colors cursor-pointer">
             Powered by Paper N Pencil
