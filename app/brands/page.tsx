@@ -6,56 +6,56 @@ export default function BrandsPage() {
     {
       name: 'Carrier',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e1.png',
-      description: 'Global leader in high-technology heating, air-conditioning and refrigeration solutions',
-      specialties: ['Commercial HVAC', 'Residential Systems', 'Refrigeration']
+      // description: 'Global leader in high-technology heating, air-conditioning and refrigeration solutions',
+      // specialties: ['Commercial HVAC', 'Residential Systems', 'Refrigeration']
     },
     {
       name: 'Trane',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e2.png',
-      description: 'World leader in air conditioning systems, services and solutions',
-      specialties: ['Building Automation', 'Energy Services', 'Climate Control']
+      // description: 'World leader in air conditioning systems, services and solutions',
+      // specialties: ['Building Automation', 'Energy Services', 'Climate Control']
     },
     {
       name: 'Daikin',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e3.png',
-      description: 'World\'s largest air conditioning manufacturer with innovative VRV systems',
-      specialties: ['VRV Systems', 'Split Units', 'Air Purification']
+      // description: 'World\'s largest air conditioning manufacturer with innovative VRV systems',
+      // specialties: ['VRV Systems', 'Split Units', 'Air Purification']
     },
     {
       name: 'Mitsubishi Electric',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e4.png',
-      description: 'Pioneer in ductless heating and cooling technology',
-      specialties: ['Ductless Systems', 'Heat Pumps', 'Multi-Zone Solutions']
+      // description: 'Pioneer in ductless heating and cooling technology',
+      // specialties: ['Ductless Systems', 'Heat Pumps', 'Multi-Zone Solutions']
     },
     {
       name: 'York',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e5.png',
-      description: 'Trusted name in commercial and residential HVAC equipment',
-      specialties: ['Rooftop Units', 'Chillers', 'Air Handlers']
+      // description: 'Trusted name in commercial and residential HVAC equipment',
+      // specialties: ['Rooftop Units', 'Chillers', 'Air Handlers']
     },
     {
       name: 'Lennox',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e6.png',
-      description: 'Premium heating and cooling products with advanced efficiency',
-      specialties: ['Furnaces', 'Heat Pumps', 'Air Conditioners']
+      // description: 'Premium heating and cooling products with advanced efficiency',
+      // specialties: ['Furnaces', 'Heat Pumps', 'Air Conditioners']
     },
     {
       name: 'Rheem',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e7.png',
-      description: 'Leading manufacturer of water heating and HVAC products',
-      specialties: ['Water Heaters', 'Package Units', 'Gas Furnaces']
+      // description: 'Leading manufacturer of water heating and HVAC products',
+      // specialties: ['Water Heaters', 'Package Units', 'Gas Furnaces']
     },
     {
       name: 'Goodman',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e8.png',
-      description: 'Affordable, reliable heating and cooling solutions',
-      specialties: ['Residential HVAC', 'Value Solutions', 'Warranty Coverage']
+      // description: 'Affordable, reliable heating and cooling solutions',
+      // specialties: ['Residential HVAC', 'Value Solutions', 'Warranty Coverage']
     },
     {
       name: 'American Standard',
       logo: 'https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/c0e0e0e0e0e0e0e0e0e0e0e0e0e0e0e9.png',
-      description: 'Quality HVAC systems with exceptional durability',
-      specialties: ['Comfort Systems', 'Indoor Air Quality', 'Smart Thermostats']
+      // description: 'Quality HVAC systems with exceptional durability',
+      // specialties: ['Comfort Systems', 'Indoor Air Quality', 'Smart Thermostats']
     }
   ];
 
@@ -89,10 +89,10 @@ export default function BrandsPage() {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{brand.name}</h3>
-                <p className="text-gray-600 mb-6">{brand.description}</p>
+                <p className="text-gray-600 mb-6">{brand?.description}</p>
                 <div className="space-y-2">
-                  <p className="text-sm font-semibold text-[#06529e] mb-2">Specialties:</p>
-                  {brand.specialties.map((specialty, idx) => (
+                  {/* <p className="text-sm font-semibold text-[#06529e] mb-2">Specialties:</p> */}
+                  {brand?.specialties?.map((specialty, idx) => (
                     <div key={idx} className="flex items-center text-gray-700">
                       <i className="ri-check-line text-[#c59241] mr-2"></i>
                       <span>{specialty}</span>
@@ -143,7 +143,7 @@ export default function BrandsPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-[#06529e] to-[#04437f] rounded-2xl p-12 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">Interested in Our Products?</h2>
@@ -156,7 +156,7 @@ export default function BrandsPage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

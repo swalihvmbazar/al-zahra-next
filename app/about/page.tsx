@@ -102,7 +102,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="py-20 bg-[#06529e]">
+      {/* <section className="py-20 bg-[#06529e]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Work With Us?</h2>
           <p className="text-xl text-white/90 mb-8">Let's discuss how we can help with your HVAC needs</p>
@@ -113,7 +113,7 @@ export default function AboutPage() {
             Get in Touch
           </Link>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

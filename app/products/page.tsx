@@ -64,7 +64,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      <section className="py-20">
+      {/* <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-r from-[#06529e] to-[#04437f] rounded-2xl p-12 text-center">
             <h2 className="text-4xl font-bold text-white mb-6">Need Help Choosing?</h2>
@@ -77,7 +77,7 @@ export default function ProductsPage() {
             </Link>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }
