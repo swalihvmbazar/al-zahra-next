@@ -1,7 +1,11 @@
+
 import ProductsSection from '@/components/ProductsSection';
 import Link from 'next/link';
 
 export default function ProductsPage() {
+
+
+
   return (
     <div className="min-h-screen bg-white">
       <section className="relative h-[400px] bg-gradient-to-r from-[#06529e] to-[#04437f] flex items-center">
