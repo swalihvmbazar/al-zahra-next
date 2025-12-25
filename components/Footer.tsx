@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <img 
-              src="https://static.readdy.ai/image/ebd701424364cc43fde171abb332b56d/61208a66775c73bc0685f54b7678d959.png" 
+              src="/assets/logo.png" 
               alt="Company Logo" 
               className="h-12 w-auto mb-4 brightness-0 invert"
             />

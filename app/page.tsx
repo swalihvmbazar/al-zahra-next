@@ -39,7 +39,7 @@ export default function Home() {
       >
         <div className="w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
           <div className="max-w-3xl">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 animate-fade-in">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl 2xl:text-7xl font-bold text-white mb-6 animate-fade-in">
               Complete HVAC Solutions<br />for Every Industry
             </h1>
             <p className="text-lg text-white/95 mb-10">
