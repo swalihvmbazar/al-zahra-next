@@ -89,16 +89,16 @@ export default function BrandsPage() {
                   />
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900 mb-4">{brand.name}</h3>
-                <p className="text-gray-600 mb-6">{brand?.description}</p>
-                <div className="space-y-2">
-                  {/* <p className="text-sm font-semibold text-[#06529e] mb-2">Specialties:</p> */}
+                {/* <p className="text-gray-600 mb-6">{brand?.description}</p> */}
+                {/* <div className="space-y-2">
+                  <p className="text-sm font-semibold text-[#06529e] mb-2">Specialties:</p>
                   {brand?.specialties?.map((specialty, idx) => (
                     <div key={idx} className="flex items-center text-gray-700">
                       <i className="ri-check-line text-[#c59241] mr-2"></i>
                       <span>{specialty}</span>
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
