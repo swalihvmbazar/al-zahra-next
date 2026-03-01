@@ -126,7 +126,7 @@ export default function ContactPage() {
 
             <div className="bg-gray-50 p-8 rounded-2xl">
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Send Us a Message</h3>
-              
+
               {submitStatus === 'success' && (
                 <div className="mb-6 p-4 bg-green-50 border border-green-200 rounded-lg flex items-center">
                   <i className="ri-check-line text-green-600 text-xl mr-3"></i>
@@ -264,7 +264,7 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gray-100 rounded-2xl overflow-hidden h-[500px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.15830869428!2d-74.119763973046!3d40.69766374874431!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d378.7839473107452!2d39.16984519811946!3d21.616558334336645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDM2JzU5LjUiTiAzOcKwMTAnMTIuNiJF!5e0!3m2!1sen!2sin!4v1769319101350!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

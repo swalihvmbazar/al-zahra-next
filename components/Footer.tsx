@@ -8,10 +8,10 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
-            <img 
-              src="/assets/logo.png" 
-              alt="Company Logo" 
-              className="h-12 w-auto mb-4 brightness-0 invert"
+            <img
+              src="/assets/zarco-logo-invert-center.svg"
+              alt="Company Logo"
+              className="h-24 w-auto mb-4"
             />
             <p className="text-sm text-gray-400 leading-relaxed">
               Your trusted partner for premium HVAC solutions and AC parts across Saudi Arabia.

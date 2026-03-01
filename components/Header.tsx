@@ -20,9 +20,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center">
-            <img 
-              src="/assets/logo.png" 
-              alt="Company Logo" 
+            <img
+              src="/assets/zarco-logo-left.svg"
+              alt="Company Logo"
               className="h-10 w-auto"
             />
           </Link>
@@ -49,15 +49,15 @@ export default function Header() {
           </nav>
 
           <div className="hidden lg:block">
-            <Link 
-              href="/contact" 
+            <Link
+              href="/contact"
               className="bg-[#06529e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#04437f] transition-colors whitespace-nowrap"
             >
               Request a Quote
             </Link>
           </div>
 
-          <button 
+          <button
             className="lg:hidden w-10 h-10 flex items-center justify-center"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
@@ -86,8 +86,8 @@ export default function Header() {
               <Link href="/contact" className="text-gray-700 hover:text-[#06529e] font-medium transition-colors whitespace-nowrap">
                 Contact
               </Link>
-              <Link 
-                href="/contact" 
+              <Link
+                href="/contact"
                 className="bg-[#06529e] text-white px-6 py-3 rounded-lg font-semibold hover:bg-[#04437f] transition-colors text-center whitespace-nowrap"
               >
                 Request a Quote
