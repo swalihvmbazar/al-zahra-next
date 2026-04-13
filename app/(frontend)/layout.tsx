@@ -35,6 +35,7 @@ export default function FrontendLayout({
     <html lang="en" suppressHydrationWarning={true}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${pacifico.variable} antialiased`}
+        suppressHydrationWarning
       >
         <Header />
         <main className="pt-20">
