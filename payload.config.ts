@@ -2,7 +2,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 import { buildConfig } from 'payload'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
-import { sqliteAdapter } from '@payloadcms/db-sqlite'
+import { mongooseAdapter } from '@payloadcms/db-mongodb'
 import sharp from 'sharp'
 
 const filename = fileURLToPath(import.meta.url)
@@ -222,11 +222,8 @@ export default buildConfig({
         outputFile: path.resolve(dirname, 'payload-types.ts'),
     },
 
-    db: sqliteAdapter({
-        client: {
-            url: process.env.DATABASE_URI || 'file:./payload.db',
-        },
-        push: true,
+    db: mongooseAdapter({
+        url: process.env.DATABASE_URI || '',
     }),
 
     sharp,
