@@ -8,7 +8,7 @@ type ProductImage = {
 };
 
 export type ProductItem = {
-  id: number;
+  id: string | number;
   title: string;
   category: string;
   description: string;
