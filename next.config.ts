@@ -1,13 +1,10 @@
 import type { NextConfig } from "next";
+import { withPayload } from "@payloadcms/next/withPayload";
 
 const nextConfig: NextConfig = {
-  output: "export",
   images: {
     unoptimized: true,
   },
-  typescript: {
-    // ignoreBuildErrors: true,
-  },
 };
 
-export default nextConfig;
+export default withPayload(nextConfig);

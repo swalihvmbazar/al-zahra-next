@@ -1,24 +1,9 @@
-'use client';
-
 import Link from 'next/link';
-import { useEffect, useState } from 'react';
 import BrandsSection from '@/components/BrandsSection';
 import ProductsSection from '@/components/ProductsSection';
+import ProjectHighlights from '@/components/ProjectHighlights';
 
 export default function Home() {
-  const [currentBrand, setCurrentBrand] = useState(0);
-
-  const brands = [
-    'Zarco', 'Mueller', 'Supaflex', 'Abro', 'Airmaster', 
-    'Kimmco', 'Honeywell', 'Armstrong', 'Thermoflex'
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentBrand((prev) => (prev + 1) % brands.length);
-    }, 3000);
-    return () => clearInterval(interval);
-  }, []);
 
   const industries = [
     { name: 'Airports & Metro Systems', icon: 'ri-plane-line' },
@@ -138,69 +123,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="bg-white py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Project Highlights</h2>
-            <p className="text-lg text-gray-600">Delivering excellence across major infrastructure projects</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
-            <div className="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
-              <img 
-                src="https://readdy.ai/api/search-image?query=Modern%20metro%20railway%20station%20interior%20with%20advanced%20HVAC%20ventilation%20systems%2C%20clean%20architectural%20design%2C%20bright%20lighting%2C%20and%20professional%20infrastructure%20showing%20air%20conditioning%20ducts%20and%20climate%20control%20equipment&width=600&height=800&seq=proj001&orientation=portrait"
-                alt="Metro Project"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                <h3 className="text-white text-xl font-semibold">Metro Systems</h3>
-              </div>
-            </div>
-
-            <div className="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
-              <img 
-                src="https://readdy.ai/api/search-image?query=Modern%20hospital%20building%20exterior%20with%20advanced%20medical%20facility%20architecture%2C%20clean%20white%20facade%2C%20professional%20healthcare%20infrastructure%20with%20visible%20HVAC%20systems%20and%20climate%20control%20installations&width=600&height=800&seq=proj002&orientation=portrait"
-                alt="Hospital Project"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                <h3 className="text-white text-xl font-semibold">Healthcare Facilities</h3>
-              </div>
-            </div>
-
-            <div className="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
-              <img 
-                src="https://readdy.ai/api/search-image?query=Luxury%20shopping%20mall%20interior%20with%20modern%20architecture%2C%20multiple%20floors%2C%20elegant%20design%2C%20advanced%20air%20conditioning%20systems%2C%20professional%20HVAC%20installations%2C%20bright%20commercial%20space%20with%20sophisticated%20climate%20control&width=600&height=800&seq=proj003&orientation=portrait"
-                alt="Shopping Mall"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                <h3 className="text-white text-xl font-semibold">Commercial Malls</h3>
-              </div>
-            </div>
-
-            <div className="relative h-80 rounded-xl overflow-hidden group cursor-pointer">
-              <img 
-                src="https://readdy.ai/api/search-image?query=Large%20industrial%20manufacturing%20plant%20facility%20with%20extensive%20HVAC%20systems%2C%20professional%20climate%20control%20equipment%2C%20industrial%20ductwork%2C%20ventilation%20systems%2C%20and%20advanced%20air%20conditioning%20infrastructure%20in%20modern%20factory%20setting&width=600&height=800&seq=proj004&orientation=portrait"
-                alt="Industrial Plant"
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-6">
-                <h3 className="text-white text-xl font-semibold">Industrial Plants</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <Link 
-              href="/projects" 
-              className="inline-block bg-[#06529e] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#04437f] transition-colors whitespace-nowrap"
-            >
-              View Portfolio
-            </Link>
-          </div>
-        </div>
-      </div>
+      <ProjectHighlights />
     </div>
   );
 }
