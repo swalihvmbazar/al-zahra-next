@@ -3,6 +3,8 @@ import BrandsSection from '@/components/BrandsSection';
 import ProductsSection from '@/components/ProductsSection';
 import ProjectHighlights from '@/components/ProjectHighlights';
 
+export const dynamic = 'force-dynamic';
+
 export default function Home() {
 
   const industries = [

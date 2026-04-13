@@ -1,6 +1,8 @@
 import BrandsSection from '@/components/BrandsSection';
 import Link from 'next/link';
 
+export const dynamic = 'force-dynamic';
+
 export default function BrandsPage() {
   const brands = [
     {
