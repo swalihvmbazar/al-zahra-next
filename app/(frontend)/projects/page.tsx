@@ -3,6 +3,8 @@ import Link from 'next/link';
 import { getPayload } from 'payload';
 import config from '@payload-config';
 
+export const dynamic = 'force-dynamic';
+
 type ProjectImage = { url?: string | null; alt: string };
 type SystemRow = { system: string; id?: string | null };
 
