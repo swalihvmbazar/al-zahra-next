@@ -151,10 +151,10 @@ export default function ProductsSectionClient({ products }: { products: ProductI
                   <div className="p-5 md:p-8">
                     <h3 className="text-lg md:text-xl font-bold text-gray-900 mb-2 md:mb-3">{product.title}</h3>
                     <p className="text-sm md:text-[15px] text-gray-600 leading-relaxed mb-4 md:mb-6">{product.description}</p>
-                    <button className="inline-flex items-center text-[13px] md:text-[14px] font-semibold text-[#06529e] hover:text-[#0a6bc2] transition-colors cursor-pointer">
+                    {/* <button className="inline-flex items-center text-[13px] md:text-[14px] font-semibold text-[#06529e] hover:text-[#0a6bc2] transition-colors cursor-pointer">
                       Learn More
                       <i className="ri-arrow-right-line ml-2"></i>
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               ))}
