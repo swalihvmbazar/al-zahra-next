@@ -9,7 +9,7 @@ type BrandLogo = {
 };
 
 export type BrandItem = {
-  id: number;
+  id: string | number;
   name: string;
   logo: BrandLogo | number;
 };
