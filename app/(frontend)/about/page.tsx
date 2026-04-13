@@ -27,7 +27,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div>
-              <img 
+              <img
                 src="https://readdy.ai/api/search-image?query=Professional%20HVAC%20technicians%20working%20on%20modern%20air%20conditioning%20system%20installation%20in%20a%20bright%20commercial%20building%20with%20advanced%20equipment%20and%20tools%20showing%20expertise%20and%20precision%20in%20climate%20control%20technology&width=600&height=400&seq=about1&orientation=landscape"
                 alt="Our Team"
                 className="w-full h-[400px] object-cover rounded-lg shadow-xl"
