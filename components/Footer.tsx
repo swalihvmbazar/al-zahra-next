@@ -75,7 +75,7 @@ export default function Footer() {
                   <p>alzahracompany.sa@gmail.com</p>
                 </div>
               </li>
-              <li className="flex items-start">
+              <li className="flex items-center">
                 <i className="ri-time-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
                 <span className="text-sm">Sun - Thu: 8:00 AM - 6:00 PM</span>
               </li>
