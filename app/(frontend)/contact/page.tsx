@@ -69,38 +69,36 @@ export default function ContactPage() {
                     <i className="ri-map-pin-line text-xl text-white"></i>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Visit Us</h3>
-                    <p className="text-gray-600">123 HVAC Boulevard, Suite 500<br />New York, NY 10001</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Jeddah — Hira Branch</h3>
+                    <div className="space-y-1 text-gray-600 text-sm">
+                      <p><i className="ri-phone-line mr-2 text-[#06529e]"></i>012 60 580 15</p>
+                      <p><i className="ri-smartphone-line mr-2 text-[#06529e]"></i>055 938 7682 / 050 00 68476</p>
+                      <p><i className="ri-mail-line mr-2 text-[#06529e]"></i>alzahraco.he@gmail.com</p>
+                    </div>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-[#c59241] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <i className="ri-phone-line text-xl text-white"></i>
+                    <i className="ri-map-pin-line text-xl text-white"></i>
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Call Us</h3>
-                    <p className="text-gray-600">Main: (555) 123-4567<br />Emergency: (555) 987-6543</p>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Jeddah — Baladiya St., Gandeel St.</h3>
+                    <div className="space-y-1 text-gray-600 text-sm">
+                      <p><i className="ri-phone-line mr-2 text-[#c59241]"></i>012 661 0729</p>
+                      <p><i className="ri-smartphone-line mr-2 text-[#c59241]"></i>056 440 3918 / 050 00 68476</p>
+                      <p><i className="ri-mail-line mr-2 text-[#c59241]"></i>alzahracompany.sa@gmail.com</p>
+                    </div>
                   </div>
                 </div>
 
                 <div className="flex items-start">
                   <div className="w-12 h-12 bg-[#06529e] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
-                    <i className="ri-mail-line text-xl text-white"></i>
-                  </div>
-                  <div>
-                    <h3 className="text-lg font-bold text-gray-900 mb-2">Email Us</h3>
-                    <p className="text-gray-600">info@hvaccompany.com<br />support@hvaccompany.com</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start">
-                  <div className="w-12 h-12 bg-[#c59241] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
                     <i className="ri-time-line text-xl text-white"></i>
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900 mb-2">Business Hours</h3>
-                    <p className="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM<br />Saturday: 9:00 AM - 4:00 PM<br />Sunday: Emergency Service Only</p>
+                    <p className="text-gray-600">Sunday - Thursday: 8:00 AM - 6:00 PM</p>
                   </div>
                 </div>
               </div>
@@ -259,7 +257,7 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
+{/* 
       <section className="pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gray-100 rounded-2xl overflow-hidden h-[500px]">
@@ -274,7 +272,7 @@ export default function ContactPage() {
             ></iframe>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

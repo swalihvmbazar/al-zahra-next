@@ -58,21 +58,25 @@ export default function Footer() {
 
           <div>
             <h3 className="text-white font-semibold text-lg mb-4">Contact Info</h3>
-            <ul className="space-y-3">
+            <ul className="space-y-4">
               <li className="flex items-start">
-                <i className="ri-map-pin-line text-[#c59241] mt-1 mr-2"></i>
-                <span className="text-sm">Saudi Arabia</span>
-              </li>
-              <li className="flex items-center">
-                <i className="ri-phone-line text-[#c59241] mr-2"></i>
-                <span className="text-sm">+966 XX XXX XXXX</span>
-              </li>
-              <li className="flex items-center">
-                <i className="ri-mail-line text-[#c59241] mr-2"></i>
-                <span className="text-sm">info@company.com</span>
+                <i className="ri-map-pin-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
+                <div className="text-sm">
+                  <p className="text-white font-medium">Jeddah — Hira Branch</p>
+                  <p>012 60 580 15 / 055 938 7682</p>
+                  <p>alzahraco.he@gmail.com</p>
+                </div>
               </li>
               <li className="flex items-start">
-                <i className="ri-time-line text-[#c59241] mt-1 mr-2"></i>
+                <i className="ri-map-pin-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
+                <div className="text-sm">
+                  <p className="text-white font-medium">Jeddah — Baladiya St.</p>
+                  <p>012 661 0729 / 056 440 3918</p>
+                  <p>alzahracompany.sa@gmail.com</p>
+                </div>
+              </li>
+              <li className="flex items-start">
+                <i className="ri-time-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
                 <span className="text-sm">Sun - Thu: 8:00 AM - 6:00 PM</span>
               </li>
             </ul>
