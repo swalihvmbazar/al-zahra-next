@@ -71,9 +71,8 @@ export default function ContactPage() {
                   <div>
                     <h3 className="text-lg font-bold text-gray-900 mb-2">Jeddah — Hira Branch</h3>
                     <div className="space-y-1 text-gray-600 text-sm">
-                      <p><i className="ri-phone-line mr-2 text-[#06529e]"></i>012 60 580 15</p>
-                      <p><i className="ri-smartphone-line mr-2 text-[#06529e]"></i>055 938 7682 / 050 00 68476</p>
-                      <p><i className="ri-mail-line mr-2 text-[#06529e]"></i>alzahraco.he@gmail.com</p>
+                      <p><i className="ri-smartphone-line mr-2 text-[#06529e]"></i>050 006 8476</p>
+                      <p><i className="ri-smartphone-line mr-2 text-[#06529e]"></i>055 086 1614 / 055 938 7682</p>
                     </div>
                   </div>
                 </div>
@@ -86,9 +85,18 @@ export default function ContactPage() {
                     <h3 className="text-lg font-bold text-gray-900 mb-2">Jeddah — Baladiya St., Gandeel St.</h3>
                     <div className="space-y-1 text-gray-600 text-sm">
                       <p><i className="ri-phone-line mr-2 text-[#c59241]"></i>012 661 0729</p>
-                      <p><i className="ri-smartphone-line mr-2 text-[#c59241]"></i>056 440 3918 / 050 00 68476</p>
-                      <p><i className="ri-mail-line mr-2 text-[#c59241]"></i>alzahracompany.sa@gmail.com</p>
+                      <p><i className="ri-smartphone-line mr-2 text-[#c59241]"></i>056 440 3918 / 055 228 8641</p>
                     </div>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="w-12 h-12 bg-[#06529e] rounded-lg flex items-center justify-center mr-4 flex-shrink-0">
+                    <i className="ri-mail-line text-xl text-white"></i>
+                  </div>
+                  <div>
+                    <h3 className="text-lg font-bold text-gray-900 mb-2">Email</h3>
+                    <p className="text-gray-600 text-sm">alzahracompany.sa@gmail.com</p>
                   </div>
                 </div>
 
@@ -98,7 +106,9 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <h3 className="text-lg font-bold text-gray-900 mb-2">Business Hours</h3>
-                    <p className="text-gray-600">Sunday - Thursday: 8:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">Saturday - Thursday: 8:00 AM - 2:00 PM</p>
+                    <p className="text-gray-600">4:30 PM - 9:30 PM</p>
+                    <p className="text-gray-600 text-sm mt-1">Closed on Fridays</p>
                   </div>
                 </div>
               </div>
@@ -257,22 +267,48 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-{/* 
       <section className="pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="bg-gray-100 rounded-2xl overflow-hidden h-[500px]">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d378.7839473107452!2d39.16984519811946!3d21.616558334336645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDM2JzU5LjUiTiAzOcKwMTAnMTIuNiJF!5e0!3m2!1sen!2sin!4v1769319101350!5m2!1sen!2sin"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+          <h2 className="text-3xl font-bold text-gray-900 mb-8">Our Locations</h2>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+            <div className="rounded-2xl overflow-hidden shadow-md">
+              <div className="bg-[#06529e] px-5 py-4">
+                <div className="flex items-center">
+                  <i className="ri-map-pin-line text-white text-xl mr-2"></i>
+                  <h3 className="text-white font-semibold text-lg">Jeddah — Hira Branch</h3>
+                </div>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3709.2138694015425!2d39.16759177381674!3d21.616588267332503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjHCsDM2JzU5LjciTiAzOcKwMTAnMTIuNiJF!5e0!3m2!1sen!2sin!4v1777042870400!5m2!1sen!2sin"
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+
+            <div className="rounded-2xl overflow-hidden shadow-md">
+              <div className="bg-[#c59241] px-5 py-4">
+                <div className="flex items-center">
+                  <i className="ri-map-pin-line text-white text-xl mr-2"></i>
+                  <h3 className="text-white font-semibold text-lg">Jeddah — Baladiya St.</h3>
+                </div>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14843.327490462712!2d39.16931987354838!3d21.55342839426924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15c3d03bf316ca63%3A0x1a548cfcc8651f24!2sAl%20Zahra%20aircondition%20and%20refrigeration%20Company!5e0!3m2!1sen!2sin!4v1777042562390!5m2!1sen!2sin"
+                width="100%"
+                height="350"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
         </div>
-      </section> */}
+      </section>
     </div>
   );
 }

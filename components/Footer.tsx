@@ -63,21 +63,26 @@ export default function Footer() {
                 <i className="ri-map-pin-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
                 <div className="text-sm">
                   <p className="text-white font-medium">Jeddah — Hira Branch</p>
-                  <p>012 60 580 15 / 055 938 7682</p>
-                  <p>alzahraco.he@gmail.com</p>
+                  <p>050 006 8476 / 055 086 1614 / 055 938 7682</p>
                 </div>
               </li>
               <li className="flex items-start">
                 <i className="ri-map-pin-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
                 <div className="text-sm">
                   <p className="text-white font-medium">Jeddah — Baladiya St.</p>
-                  <p>012 661 0729 / 056 440 3918</p>
-                  <p>alzahracompany.sa@gmail.com</p>
+                  <p>012 661 0729 / 056 440 3918 / 055 228 8641</p>
                 </div>
               </li>
               <li className="flex items-center">
+                <i className="ri-mail-line text-[#c59241] mr-2 flex-shrink-0"></i>
+                <span className="text-sm">alzahracompany.sa@gmail.com</span>
+              </li>
+              <li className="flex items-center">
                 <i className="ri-time-line text-[#c59241] mt-1 mr-2 flex-shrink-0"></i>
-                <span className="text-sm">Sun - Thu: 8:00 AM - 6:00 PM</span>
+                <div className="text-sm">
+                  <p>Sat - Thu: 8:00 AM - 2:00 PM</p>
+                  <p>4:30 PM - 9:30 PM</p>
+                </div>
               </li>
             </ul>
           </div>
